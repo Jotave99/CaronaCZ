@@ -25,8 +25,14 @@
 
 .phone:hover {
     cursor: pointer;
+    fill: #00875F;
+    width: 48;
+    height: 48;
 }
 
 .shield:hover {
     cursor: pointer;
+    fill: #00875F;
+    width: 46;
+    height: 48;
 }

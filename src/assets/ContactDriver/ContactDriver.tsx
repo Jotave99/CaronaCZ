@@ -24,15 +24,11 @@ const ContactDriver = () => {
                     className={styles.phone}
                     src={Phone}
                     alt='icone do celular'
-                    width={48}
-                    height={48}
                 />
                 <img 
                     className={styles.shield}
                     src={Shield}
                     alt='icone do escudo'
-                    width={46}
-                    height={48}
                 />
             </div>
 
