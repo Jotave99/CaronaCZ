@@ -1,0 +1,20 @@
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+  
+    color: rgb(19, 58, 19);
+  }
+  
+  .title span {
+    color: rgb(62, 173, 62);
+  }
+  
+  .subtitle {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+  
+    color: rgb(19, 58, 19);
+  }
+  
