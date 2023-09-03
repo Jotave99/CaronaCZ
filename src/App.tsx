@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import ContactDriver from './assets/ContactDriver/ContactDriver'
 import TitleDriver from './assets/TitleDriver/TitleDriver';
+import DriverInformation from './assets/DriverInformation/DriverInformation';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div>
 
       <TitleDriver />
+      <DriverInformation />
       <ContactDriver />
 
     </div>

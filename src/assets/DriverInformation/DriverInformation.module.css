@@ -1,0 +1,113 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 21.1875rem;
+
+}
+
+.iconsDriverCar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.driverIcon {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.personPhoto {
+    width: 137;
+    height: 137;
+}
+
+.driverPhotoAndScore {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.driverScore {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 16;
+    height: 16;
+    gap: 1.2256rem;
+    bottom: 0;
+    padding: 0.302rem 1.2rem;
+    border-radius: 15.6862px;
+    color: rgb(244, 241, 241);
+    background: rgb(15, 152, 15);
+}
+
+.driverName {
+    margin-top: 0.5rem;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(19, 58, 19);
+
+}
+
+.car {
+    position: absolute;
+    left: 5.7rem;
+    z-index: -1;
+    width: 286;
+    height: 111;
+
+}
+
+.carInformations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.carId {
+    font-weight: 700;
+    font-size: 41.0955px;
+    line-height: 50px;
+    color: rgb(19, 58, 19);
+
+}
+
+.carType {
+    font-weight: 500;
+    font-size: 24.6573px;
+    line-height: 30px;
+
+}
+
+@media screen and (max-width: 680px) {
+    .container {
+        flex-direction: column;
+        gap: 4rem;
+
+    }
+
+    .iconsDriverCar {
+        flex-direction: column;
+        gap: 4rem;
+
+    }
+
+    .car {
+        position: initial;
+
+    }
+
+}
