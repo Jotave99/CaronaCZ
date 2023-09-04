@@ -5,8 +5,8 @@ const MessageBlock = ({text, photo}) => {
     return (
         <div
             style={{
-                width: '920px',
-                height: '74px',
+                width: '900px',
+                height: '44px',
                 backgroundColor: '#E5E1E6',
                 display: 'flex',
                 alignItems: 'center',
@@ -34,7 +34,7 @@ const MessageBlock = ({text, photo}) => {
                     marginRight: '10px',
                 }}
             >
-                <span style={{fontSize: '12px'}}>{text}</span>
+                <span style={{fontSize: '12px', fontWeight: 'initial'}}>{text}</span>
             </div>
 
             <img 

@@ -5,7 +5,7 @@
 }
 
 .inputSendMessage {
-    background: var(--color-gray-150);
+    background: #E5E1E6;
     border-radius: 1.5rem;
     border: transparent;
     padding: 1.125rem 1.8125rem;
@@ -13,7 +13,6 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
-    color: var(--color-purple-400);
 }
 
 .emergencyIcons {
